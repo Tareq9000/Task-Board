@@ -1,0 +1,13 @@
+.box {
+  border-radius: 7px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  font-size: small;
+}
+.btn {
+  align-self: flex-end;
+}

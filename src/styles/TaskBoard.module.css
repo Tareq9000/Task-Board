@@ -1,0 +1,22 @@
+.box {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  width: 100%;
+  min-height: 300px;
+}
+.box > div {
+  flex: 1;
+  margin: 5px;
+  border-style: solid;
+  border-radius: 5px;
+}
+.todoColumn {
+  border-color: red;
+}
+.progressColumn {
+  border-color: orange;
+}
+.doneColumn {
+  border-color: green;
+}
